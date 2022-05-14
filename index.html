@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <img src="img/logo.png" alt="">
+    </div>
+    <div class="nav-links">
+        <div class="nav-bg">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Quick Links</a>
+            <a href="#">Customer Care</a>
+            <a href="#">Partner with Us</a>
+        </div>
+
+    </div>
+
+    
+    </div>
+    <div class="info">
+        <div class="bg">
+            <div class="left">
+                <h3 class="basic">BASIC IFORMATION</h3>
+                <form action="">
+                    <input type="text" id="fname" placeholder="First Name">
+                    <span id="fnameError"></span>
+                    <input type="text" id="lname" placeholder="Last Name">
+                    <span id="lnameError"></span>
+                    <input type="date" id="age" placeholder="Date of Birth">
+                    <span id="ageError"></span>
+                    <select id="gender" placeholder="Select Gender">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <span id="genderError"></span>
+                    <input type="text" id="phone" placeholder="Enter Phone number">
+                    <span id="phoneError"></span>
+                    <input type="text" id="school" placeholder="Preferred Institution">
+                    <span id="schoolError"></span>
+
+
+
+                    <div class="line">
+                        <hr>
+                    </div>
+                    <div class="nationalty">
+
+                        <h4>Select Country</h4>
+
+                        <select name="" id="continent" class="continent">
+                            <option value="">Continent</option>
+                            <option value="africa">Africa</option>
+                            <option value="asia">Asia</option>
+                            <option value="northAmerica">North America</option>
+                            <option value="southAmerica">South America</option>
+                            <option value="others">Others</option>
+                        </select>
+                        <span id="continentError"></span>
+                        <p></p>
+                        <select name="" id="africa" class="country">
+                           
+                            <option value="">Angola</option>
+                            <option value="">Ethiopia</option>
+                            <option value="">Ghana</option>
+                            <option value="">Liberia</option>
+                            <option value="">Nigeria</option>
+                            <option value="">Senegal</option>
+                        </select>
+                        <span id="countryError"></span>
+                        <select name="" id="asia" class="country">
+                            <option value="">China</option>
+                            <option value="">Japan</option>
+                            <option value="">India</option>
+                            <option value="">Indonesia</option>
+                            <option value="">South Korea</option>
+                            <option value="">Thailand</option>
+                            <option value="">Vietnam</option>
+                        </select>
+                        <select name="" id="northAmerica" class="country">
+                            <option value="">Canada</option>
+                            <option value="">Cuba</option>
+                            <option value="">Costa Rica</option>
+                            <option value="">Honduras</option>
+                            <option value="">Haiti</option>
+                            <option value="">Jamaica</option>
+                            <option value="">Saint Lucia</option>
+                        </select>
+                        <select name="" id="southAmerica" class="country">
+                            <option value="">Argentina</option>
+                            <option value="">Brazil</option>
+                            <option value="">Bolivia</option>
+                            <option value="">Chile</option>
+                            <option value="">Ecuador</option>
+                            <option value="">Guyana</option>
+                            <option value="">Venezuela</option>
+                        </select>
+                        <select name="" id="others" class="country">
+                            <option value="">Germany</option>
+                            <option value="">Russia</option>
+                            <option value="">New Zealand</option>
+                            <option value="">Portugal</option>
+                            <option value="">Spain</option>
+                            <option value="">Belgium</option>
+                            <option value="">Romania</option>
+                        </select>
+                        
+
+                </form>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="col1">
+                <div class="subject">
+                    <form action="">
+
+                        <div class="word">
+                            <h3>COURSES OFFERED</h3>
+                            <P>Select courses offered and input score appropriately.
+                                English and Mathematics are compulsory and are already selected</P>
+                        </div>
+
+
+                        <select name="" id="subject1">
+                            <option value="">Mathematics</option>
+
+                        </select>
+
+
+                        <select name="" id="subject2">
+                            <option>English</option>
+                        </select>
+
+
+                        <select name="" id="biology">
+                            <option value="">Select</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="CRS">CRS</option>
+                        </select>
+                        <span id="biologyError"></span>
+
+                        <select name="" id="chemistry">
+                            <option value="">Select</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value="">Biology</option>
+                            <option value="">Chemistry</option>
+                            <option value="">Physics</option>
+                            <option value="">Economics</option>
+                            <option value="">Geography</option>
+                            <option value="">CRS</option>
+                        </select>
+                        <span id="chemistryError"></span>
+
+                        <select name="" id="geography">
+                            <option value="">Select Subject</option>
+                            <option value="">Mathematics</option>
+                            <option value="">English</option>
+                            <option value="">Biology</option>
+                            <option value="">Chemistry</option>
+                            <option value="">Physics</option>
+                            <option value="">Economics</option>
+                            <option value="">Geography</option>
+                            <option value="">CRS</option>
+                        </select>
+                        <span id="geographyError"></span>
+
+                        <select name="" id="physics">
+                            <option value="">Select Subject</option>
+                            <option value="">Mathematics</option>
+                            <option value="">English</option>
+                            <option value="">Biology</option>
+                            <option value="">Chemistry</option>
+                            <option value="">Physics</option>
+                            <option value="">Economics</option>
+                            <option value="">Geography</option>
+                            <option value="">CRS</option>
+                        </select>
+                        <span id="physicsError"></span>
+
+                        <select name="" id="economics">
+                            <option value="">Select Subject</option>
+                            <option value="">Mathematics</option>
+                            <option value="">English</option>
+                            <option value="">Biology</option>
+                            <option value="">Chemistry</option>
+                            <option value="">Physics</option>
+                            <option value="">Economics</option>
+                            <option value="">Geography</option>
+                            <option value="">CRS</option>
+                        </select>
+                        <span id="economicsError"></span>
+
+                        <select name="" id="crs">
+                            <option value="">Select Subject</option>
+                            <option value="">Mathematics</option>
+                            <option value="">English</option>
+                            <option value="">Biology</option>
+                            <option value="">Chemistry</option>
+                            <option value="">Physics</option>
+                            <option value="">Economics</option>
+                            <option value="">Geography</option>
+                            <option value="">CRS</option>
+                        </select>
+                        <span id="crsError"></span>
+
+                    </form>
+                    <button id="submitBtnNew" type="button" class="submit">Submit</button>
+
+                </div>
+
+                <div class="col2">
+                    <input type="number" id="mathsScore" placeholder="Enter Score" class="score">
+                    
+                    <input type="number" id="engScore" placeholder="Enter Score" class="score">
+                    
+                    <input type="number" id="bioScore" placeholder="Enter Score" class="score">
+                    <span id="bioScoreError"></span>
+                    <input type="number" id="chemScore" placeholder="Enter Score" class="score">
+                    <span id="chemScoreError"></span>
+                    <input type="number" id="phyScore" placeholder="Enter Score" class="score">
+                    <span id="phyScoreError"></span>
+                    <input type="number" id="ecoScore" placeholder="Enter Score" class="score">
+                    <span id="ecoScoreError"></span>
+                    <input type="number" id="geoScore" placeholder="Enter Score" class="score">
+                    <span id="geoScoreError"></span>
+                    <input type="number" id="crsScore" placeholder="Enter Score" class="score">
+                    <span id="crsScoreError"></span>
+                    <div class="result">
+
+                    </div>
+                    <div class="average" id="averageresult">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="output">
+                <div class="res">
+                    <h2>RESULT</h2>
+                <p id="final">Your result will appear here when form has been <br>filled and submitted</p>
+                </div>
+                
+                <div class="user-info" id="user">
+                   
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="result-container" id="resultContainer">
+        <canvas id="chartResult"></canvas>  
+    </div>
+    
+    </div>
+    
+    </div>
+
+
+
+
+</body>
+<script src="jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>
